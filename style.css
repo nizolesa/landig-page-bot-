@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Redaction+10:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redaction+10:ital,wght@0,400;0,700;1,400&family=Tangerine:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+body {
+    font-size: 100%;
+    /* Edit this gradient: https://www.css-gradient.com/?colors=e3ecfb,9cdefc,cedcfd&gd=dtr&from=css */
+    background: #e3ecfb;
+    background: linear-gradient(45deg, #e3ecfb 0%, #9cdefc 50%, #cedcfd 100%);
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.logo {
+    font-family: 'Redaction 10', sans-serif;
+    font-size: 2rem;
+    color: #eee1e1;
+    padding: 1rem;
+}
+
+.nav {
+    font-family: 'Redaction 10', serif;
+    display: flex;
+    gap: 20px;
+}
+
+header.header .nav a {
+    color: #021624;
+    font-weight: 600
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+.hero-title {
+    font-family: 'Tangerine', cursive;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    color: #eee1e1
+}
+
+.hero-description {
+    font-family: 'Redaction 10', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    color: #021624
+}
+
+.cta-button {
+    align-items: center;
+    display: inline-block;
+    background-color: #5865F2;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 14px 32px;
+    /* espaço interno: vertical horizontal */
+    border: none;
+    border-radius: 8px;
+    /* cantos arredondados */
+    text-decoration: none;
+    /* tira o sublinhado do link */
+    cursor: pointer;
+    /* mãozinha ao passar o mouse */
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #0d1355;
+    /* cor mais escura ao passar o mouse */
+    transform: translateY(-2px);
+}
+
+/* sobe um pouquinho */
+.features-title {
+    font-family: 'Redaction 10', sans-serif;
+    font-size: 40px;
+}
+
+.features-description {
+    font-family: 'Redaction 10', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-item {
+    font-family: 'Redaction 10', serif;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: #041e38
+}
